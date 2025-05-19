@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nearby Restaurants</title>
+  <title>Halal Finder</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Restaurants Near You</h1>
-  <div id="restaurant-list">Loading...</div>
-  <script src="script.js"></script>
+  <nav class="navbar">
+    <div class="logo">Halal Finder</div>
+    <div class="search-container">
+      <input type="text" placeholder="Search food or location..." class="search-bar">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Near</a></li>
+      <li><a href="#">Option2</a></li>
+      <li><a href="#">Option3</a></li>
+    </ul>
+  </nav>
+      <h1>Restaurants Near You</h1>
+
+        <div id="restaurant-list">Loading...</div>
+        <script src="script.js"></script>
   <form id="addForm">
     <h2>Add a Restaurant</h2>
     <input type="text" placeholder="Name" id="name" required>
@@ -18,4 +30,4 @@
   </form>
   
 </body>
-</html>
+</html> 

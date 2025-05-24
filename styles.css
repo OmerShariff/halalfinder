@@ -78,6 +78,8 @@ form button:hover {
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
+  color:white;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -112,3 +114,4 @@ form button:hover {
   border-radius: 5px;
   font-size: 1rem;
 }
+
